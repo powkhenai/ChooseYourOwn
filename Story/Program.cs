@@ -6,7 +6,7 @@ namespace Story
     {
         static void Main(string[] args)
         {
-            string stuff = "ja;lskdfja;osihdf;aposidhf;aosidfh;aoslidkf;fkjha;osidfkha;sldkfija;sodifha;sodfihja;slidfja;solidfa;posidfh";
+            string stuff = "This is a string that runs along for several characters worth of length to be able to test our string chopping funcion.";
             Console.WriteLine(string.Format("The previous string was {0} characters long!", RenderScreen(stuff)));
             RenderScreen("This is a simple screen.");
             RenderScreen("This is an incredibly robust and interesting screen that is going to present epic amounts of data, and incredible runon sentences that can just never ever ever ever be stopped no matter how hard we try to stop them it just won't ever happen!!!!!");
